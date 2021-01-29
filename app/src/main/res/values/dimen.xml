@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="Titre">30dp</dimen>
+    <dimen name="text">20dp</dimen>
+    <dimen name="marge">15dp</dimen>
+    <dimen name="petite_marge">10dp</dimen>
+
+</resources>

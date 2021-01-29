@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CompanyFinder</string>
+    <string name="recherche">Recherchez par Nom, Code postal ou Département(chiffre)</string>
+    <string name="recherchez">Recherchez ici</string>
+    <string name="Titre">Company Finder</string>
+    <string name="date_creation">date de création de la société %s</string>
+    <string name="siret">numéro de Siret : %s</string>
+
+</resources>

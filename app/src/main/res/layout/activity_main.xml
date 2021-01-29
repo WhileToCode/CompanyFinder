@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Titre"
+        android:text="@string/Titre"
+        android:textSize="@dimen/Titre"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/Instruction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Titre"
+        android:layout_marginTop="@dimen/marge"
+        android:text="@string/recherche"
+        android:textSize="@dimen/text" />
+    <EditText
+        android:id="@+id/nom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Instruction"
+        android:text="@string/recherchez"
+        android:layout_toStartOf="@+id/imagebuttonsearch"
+        android:layout_marginTop="@dimen/petite_marge" />
+
+    <ImageButton
+        android:id="@+id/imagebuttonsearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/Instruction"
+        android:src="@android:drawable/ic_menu_search"
+        android:layout_marginTop="@dimen/petite_marge" />
+    <ListView
+        android:id="@+id/listResults"
+
+        android:layout_below="@id/nom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>
